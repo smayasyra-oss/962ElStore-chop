@@ -2,6 +2,8 @@
 from __future__ import annotations
 import sys
 import os
+
+# إضافة المجلد الحالي إلى مسارات بايثون لضمان رؤية مجلد handlers فوراً
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 import logging
